@@ -1,0 +1,181 @@
+/**** My Framework******/
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('fonts/League_Gothic-webfont.eot');
+    src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/League_Gothic-webfont.woff') format('woff'),
+         url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SourceSansProLight';
+    src: url('fonts/SourceSansPro-Light-webfont.eot');
+    src: url('fonts/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+         url('fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+         url('fonts/SourceSansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.clear{
+    clear: both
+}
+body{
+	font-family: SourceSansProLight, Verdana, Arial, sans-serif;
+	font-size: 14px;
+}
+/*****End Framework*****/
+/*Start Header*/
+.header{
+    background-color:black;
+    width: 100%;
+    height:120px;
+    
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	z-index: 100;
+	border-bottom: 3px solid #DDD;
+   
+}
+.container{
+    width:1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    color: white;
+    margin: 50px 0;
+    width: 40%;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: sans-serif ,fantasy, Arial, Tahoma;
+    float: left;
+    
+}
+ .header .container ul{
+ width: 60%;
+ float: right; 
+
+}
+.header .container ul li{
+    float:left; 
+    color: white;
+     margin-top:35px; 
+    list-style: none;
+    text-align: center;
+    padding: 20px ;
+    font-size:20px;
+       font-family: sans-serif ,fantasy, Arial, Tahoma;
+    margin-right: 12px
+}
+.header .container ul li:last-of-child{
+margin-right: 0;    
+}
+.header .container ul li a{
+    text-decoration: none;
+   padding: 20px;
+    color: #FFF;
+}
+.header .container ul li a:hover {
+    background-color:#DDD;
+    color: black;
+}
+ ul li.active{
+ background-color:#DDD;
+color: black;    
+}
+/*End Header*/
+
+.advertise{ /*Advertis Section*/
+    width: 100%;
+    height: 120px;
+    background-color: #DDD
+}
+.advertise .container{
+    width:1180px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+  background-color: #bcbcbc
+}
+.advertise .container p{
+    color: #626262;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 25px
+}
+/******* End banner******/
+article{
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+#news{
+    width: 26.3333%;
+    height: auto;
+   border: 2% solid #dddddd;
+    padding: 2%;
+    margin-top: 20px;
+   box-shadow: 0 2px 3px #ccc;
+    float: left;
+    margin-left: 2%
+}
+#news .image{
+   
+}
+.content h1{
+    margin: 7px 0 9px 0;
+        
+}
+.content p{
+    line-height: 1.5em;
+    color: #887b7b
+}
+.content button{
+ color: #FFFFFF;
+  background-color:black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px
+}
+.content button:hover{
+    background-color: #242222;
+    color: #b4abab
+}
+
+/*******End banner******/
+
+/******start footer****/
+footer{
+    width:100%;
+    height: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+footer p{
+padding: 15px;
+    text-align: center;
+    margin-top:0 auto;
+}
+/****** End footer****/
+
+
